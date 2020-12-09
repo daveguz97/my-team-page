@@ -10,7 +10,16 @@ body,
   width: 100%; }
 
 body {
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  background: #FAFAFA; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase; }
 
 h1 {
   font-size: 4rem; }

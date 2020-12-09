@@ -10,7 +10,16 @@ body,
   width: 100%; }
 
 body {
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  background: #FAFAFA; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase; }
 
 h1 {
   font-size: 4rem; }
@@ -36,3 +45,24 @@ p {
 .container {
   width: 80%;
   margin: auto; }
+
+.main-header {
+  margin: 4rem 2.5rem;
+  height: 33vh;
+  line-height: 1.6; }
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.about {
+  width: 50%; }
+
+@media screen and (max-width: 750px) {
+  .header-wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .about {
+    margin-top: 1.5rem;
+    width: 100%; } }

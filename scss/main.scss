@@ -1,5 +1,21 @@
 @import './config.scss';
 @import './variables.scss';
 
+// Header
+.main-header {
+    margin: 4rem 2.5rem;
+    height: 33vh;
+    line-height: 1.6;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    width: 50%;
+}
 
 // Mobile
+@import './mobile.scss';
