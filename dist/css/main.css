@@ -48,7 +48,6 @@ p {
 
 .main-header {
   margin: 4rem 2.5rem;
-  height: 33vh;
   line-height: 1.6; }
 
 .header-wrapper {
@@ -58,7 +57,41 @@ p {
 .about {
   width: 50%; }
 
+.img-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.img-div:nth-child(2) {
+  margin: 5rem 0; }
+
+.img-div:nth-child(5) {
+  margin: 5rem 0; }
+
+img {
+  max-width: 250px; }
+
+.job-description {
+  font-size: 1rem;
+  transform: rotate(90deg) translate(-65%, -325%); }
+
+.main-footer {
+  text-align: center; }
+
 @media screen and (max-width: 750px) {
+  h1 {
+    font-size: 3.5rem; }
+  h2 {
+    font-size: 3rem; }
+  h3 {
+    font-size: 2.5rem; }
+  h4 {
+    font-size: 2rem; }
+  h5 {
+    font-size: 1.5rem; }
+  h6 {
+    font-size: 1rem; }
+  p {
+    font-size: 1rem; }
   .header-wrapper {
     flex-direction: column;
     justify-content: space-between;

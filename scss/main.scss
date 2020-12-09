@@ -4,7 +4,6 @@
 // Header
 .main-header {
     margin: 4rem 2.5rem;
-    height: 33vh;
     line-height: 1.6;
 }
 
@@ -15,6 +14,33 @@
 
 .about {
     width: 50%;
+}
+
+// Image Section
+.img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img-div:nth-child(2) {
+    margin: 5rem 0;
+}
+
+.img-div:nth-child(5) {
+    margin: 5rem 0;
+}
+
+img {
+    max-width: 250px;
+}
+
+.job-description {
+    font-size: 1rem;
+    transform: rotate(90deg) translate(-65%, -325%);
+}
+
+.main-footer {
+    text-align: center;
 }
 
 // Mobile
