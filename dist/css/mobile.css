@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 3.5rem; }
   h2 {
@@ -19,4 +19,11 @@
     align-items: flex-start; }
   .about {
     margin-top: 1.5rem;
-    width: 100%; } }
+    width: 100%; }
+  .img-wrapper {
+    grid-template-columns: repeat(2, 1fr); }
+  img {
+    width: 75%; }
+  .job-description {
+    font-size: 10px;
+    left: 75%; } }

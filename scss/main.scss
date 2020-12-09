@@ -19,7 +19,12 @@
 // Image Section
 .img-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.img-div {
+    width: 100%;
+    position: relative;
 }
 
 .img-div:nth-child(2) {
@@ -36,7 +41,10 @@ img {
 
 .job-description {
     font-size: 1rem;
-    transform: rotate(90deg) translate(-65%, -325%);
+    position: absolute;
+    left: 63%;
+    top: 5%;
+    transform: rotate(90deg);
 }
 
 .main-footer {

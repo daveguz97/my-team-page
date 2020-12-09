@@ -59,7 +59,11 @@ p {
 
 .img-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+.img-div {
+  width: 100%;
+  position: relative; }
 
 .img-div:nth-child(2) {
   margin: 5rem 0; }
@@ -72,12 +76,15 @@ img {
 
 .job-description {
   font-size: 1rem;
-  transform: rotate(90deg) translate(-65%, -325%); }
+  position: absolute;
+  left: 63%;
+  top: 5%;
+  transform: rotate(90deg); }
 
 .main-footer {
   text-align: center; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 3.5rem; }
   h2 {
@@ -98,4 +105,11 @@ img {
     align-items: flex-start; }
   .about {
     margin-top: 1.5rem;
-    width: 100%; } }
+    width: 100%; }
+  .img-wrapper {
+    grid-template-columns: repeat(2, 1fr); }
+  img {
+    width: 75%; }
+  .job-description {
+    font-size: 10px;
+    left: 75%; } }
