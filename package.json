@@ -1,0 +1,23 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "A team company page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch scss/ -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveguz97/my-team-page.git"
+  },
+  "author": "David Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveguz97/my-team-page/issues"
+  },
+  "homepage": "https://github.com/daveguz97/my-team-page#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
